@@ -1,2 +1,1 @@
-# onroads.github.io
-onroads.xyz
+# onroads.xyz
