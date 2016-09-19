@@ -1,0 +1,36 @@
+{
+  "name": "onroads.xyz",
+  "version": "0.0.1",
+  "description": "onroads.xyz",
+  "author": "Phat Pham",
+  "license": "MIT",
+  "dependencies": {
+    "basscss": "^8.0.0",
+    "basscss-addons": "^1.0.0-beta4",
+    "basscss-basic": "^1.0.0",
+    "sanitize.css": "4.1.0"
+  },
+  "devDependencies": {
+    "http-server": "0.9.0",
+    "postcss": "^5.0.14",
+    "postcss-cli": "^2.4.0",
+    "postcss-cssnext": "2.7.0",
+    "postcss-discard-comments": "2.0.4",
+    "postcss-focus": "1.0.0",
+    "postcss-font-magician": "1.4.0",
+    "postcss-import": "8.1.2"
+  },
+  "scripts": {
+    "build": "postcss -c postcss.config.js",
+    "prestart": "postcss -c postcss.config.js",
+    "start": "http-server -a localhost -p 9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phatpham9/phatpham9.github.io.git"
+  },
+  "keywords": [
+    "onroads"
+  ],
+  "homepage": "http://onroads.xyz"
+}

@@ -1,0 +1,76 @@
+@import 'base.css';
+
+:root {
+	--main-color: black;
+
+    --fz1: 2.5rem;
+    --fz2: 3rem;
+    --fz3: 3.5rem;
+    --fz4: 4rem;
+};
+
+a, a:link, a:hover, a:active, a:visited {
+	color: var(--main-color);
+	border-bottom: 0.1em solid var(--main-color);
+}
+
+/* font-size */
+.fz1 {
+	font-size: var(--fz1);
+}
+.fz2 {
+	font-size: var(--fz2);
+}
+.fz3 {
+	font-size: var(--fz3);
+}
+.fz4 {
+	font-size: var(--fz4);
+}
+@media (--breakpoint-sm) {
+	.sm-fz1 {
+		font-size: var(--fz1);
+	}
+	.sm-fz2 {
+		font-size: var(--fz2);
+	}
+	.sm-fz3 {
+		font-size: var(--fz3);
+	}
+	.sm-fz4 {
+		font-size: var(--fz4);
+	}
+}
+@media (--breakpoint-md) {
+	.md-fz1 {
+		font-size: var(--fz1);
+	}
+	.md-fz2 {
+		font-size: var(--fz2);
+	}
+	.md-fz3 {
+		font-size: var(--fz3);
+	}
+	.md-fz4 {
+		font-size: var(--fz4);
+	}
+}
+@media (--breakpoint-lg) {
+	.lg-fz1 {
+		font-size: var(--fz1);
+	}
+	.lg-fz2 {
+		font-size: var(--fz2);
+	}
+	.lg-fz3 {
+		font-size: var(--fz3);
+	}
+	.lg-fz4 {
+		font-size: var(--fz4);
+	}
+}
+
+/* width */
+.w150 {
+	width: 150px;
+}
