@@ -1558,68 +1558,159 @@ hr{
 .bg-no-repeat{ background-repeat:no-repeat }
 .bg-repeat-x{ background-repeat:repeat-x }
 .bg-repeat-y{ background-repeat:repeat-y }
-a, a:link, a:hover, a:active, a:visited, a:focus{
-	color:black;
-	border-bottom:0.1em solid black;
-}
 .fz1{
+	font-size:16px;
+	font-size:1rem;
+}
+.fz2{
+	font-size:20px;
+	font-size:1.25rem;
+}
+.fz3{
+	font-size:24px;
+	font-size:1.5rem;
+}
+.fz4{
+	font-size:32px;
+	font-size:2rem;
+}
+.fz5{
 	font-size:40px;
 	font-size:2.5rem;
 }
-.fz2{
+.fz6{
 	font-size:48px;
 	font-size:3rem;
 }
-.fz3{
+.fz7{
 	font-size:56px;
 	font-size:3.5rem;
 }
-.fz4{
+.fz8{
 	font-size:64px;
 	font-size:4rem;
 }
 @media (min-width: 40em){
 	.sm-fz1{
-		font-size:2.5rem;
+		font-size:1rem;
 	}
 	.sm-fz2{
-		font-size:3rem;
+		font-size:1.25rem;
 	}
 	.sm-fz3{
-		font-size:3.5rem;
+		font-size:1.5rem;
 	}
 	.sm-fz4{
+		font-size:2rem;
+	}
+	.sm-fz5{
+		font-size:2.5rem;
+	}
+	.sm-fz6{
+		font-size:3rem;
+	}
+	.sm-fz7{
+		font-size:3.5rem;
+	}
+	.sm-fz8{
 		font-size:4rem;
 	}
 }
 @media (min-width: 52em){
 	.md-fz1{
-		font-size:2.5rem;
+		font-size:1rem;
 	}
 	.md-fz2{
-		font-size:3rem;
+		font-size:1.25rem;
 	}
 	.md-fz3{
-		font-size:3.5rem;
+		font-size:1.5rem;
 	}
 	.md-fz4{
+		font-size:2rem;
+	}
+	.md-fz5{
+		font-size:2.5rem;
+	}
+	.md-fz6{
+		font-size:3rem;
+	}
+	.md-fz7{
+		font-size:3.5rem;
+	}
+	.md-fz8{
 		font-size:4rem;
 	}
 }
 @media (min-width: 64em){
 	.lg-fz1{
-		font-size:2.5rem;
+		font-size:1rem;
 	}
 	.lg-fz2{
-		font-size:3rem;
+		font-size:1.25rem;
 	}
 	.lg-fz3{
-		font-size:3.5rem;
+		font-size:1.5rem;
 	}
 	.lg-fz4{
+		font-size:2rem;
+	}
+	.lg-fz5{
+		font-size:2.5rem;
+	}
+	.lg-fz6{
+		font-size:3rem;
+	}
+	.lg-fz7{
+		font-size:3.5rem;
+	}
+	.lg-fz8{
 		font-size:4rem;
 	}
 }
+.w50{
+	width:50px;
+}
+.w100{
+	width:100px;
+}
 .w150{
 	width:150px;
+}
+@media (min-width: 40em){
+	.sm-w50{
+		width:50px;
+	}
+	.sm-w100{
+		width:100px;
+	}
+	.sm-w150{
+		width:150px;
+	}
+}
+@media (min-width: 52em){
+	.md-w50{
+		width:50px;
+	}
+	.md-w100{
+		width:100px;
+	}
+	.md-w150{
+		width:150px;
+	}
+}
+@media (min-width: 64em){
+	.lg-w50{
+		width:50px;
+	}
+	.lg-w100{
+		width:100px;
+	}
+	.lg-w150{
+		width:150px;
+	}
+}
+a, a:link, a:hover, a:active, a:visited, a:focus{
+	color:black;
+	border-bottom:0.1em solid black;
 }

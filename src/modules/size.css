@@ -1,0 +1,46 @@
+/* width */
+.w50 {
+	width: 50px;
+}
+.w100 {
+	width: 100px;
+}
+.w150 {
+	width: 150px;
+}
+
+@media (--breakpoint-sm) {
+	.sm-w50 {
+		width: 50px;
+	}
+	.sm-w100 {
+		width: 100px;
+	}
+	.sm-w150 {
+		width: 150px;
+	}
+}
+
+@media (--breakpoint-md) {
+	.md-w50 {
+		width: 50px;
+	}
+	.md-w100 {
+		width: 100px;
+	}
+	.md-w150 {
+		width: 150px;
+	}
+}
+
+@media (--breakpoint-lg) {
+	.lg-w50 {
+		width: 50px;
+	}
+	.lg-w100 {
+		width: 100px;
+	}
+	.lg-w150 {
+		width: 150px;
+	}
+}
