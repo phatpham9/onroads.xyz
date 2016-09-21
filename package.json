@@ -21,8 +21,8 @@
     "postcss-import": "8.1.2"
   },
   "scripts": {
-    "build": "postcss -c postcss.config.js",
-    "prestart": "postcss -c postcss.config.js",
+    "build": "postcss -c config/postcss.js",
+    "prestart": "postcss -c config/postcss.js",
     "start": "http-server -a localhost -p 9000"
   },
   "repository": {
