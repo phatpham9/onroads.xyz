@@ -2318,14 +2318,26 @@ hr{
 	}
 }
 
+::-moz-selection{
+    background-color:#111111;
+    color:#FFFFFF;
+    text-shadow:none;
+}
+
+::selection{
+    background-color:#111111;
+    color:#FFFFFF;
+    text-shadow:none;
+}
+
 body{
     font-family:'Open Sans';
 }
 
-a, a:link, a:hover, a:active, a:visited, a:focus{
-	color:black;
+.border-bottom{
+    border-bottom:0.1em solid #111111;
 }
 
-.border-bottom{
-    border-bottom:0.1em solid black;
+.semi-bold{
+    font-weight:600;
 }
