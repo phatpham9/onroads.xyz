@@ -2319,13 +2319,13 @@ hr{
 }
 
 ::-moz-selection{
-    background-color:#111111;
+    background-color:#000000;
     color:#FFFFFF;
     text-shadow:none;
 }
 
 ::selection{
-    background-color:#111111;
+    background-color:#000000;
     color:#FFFFFF;
     text-shadow:none;
 }
@@ -2334,8 +2334,24 @@ body{
     font-family:'Open Sans';
 }
 
+.uppercase{
+    text-transform:uppercase;
+}
+
 .border-bottom{
-    border-bottom:0.1em solid #111111;
+    border-bottom:0.1em solid #000000;
+}
+
+.lighter{
+    font-weight:100;
+}
+
+.light{
+    font-weight:200;
+}
+
+.semi-light{
+    font-weight:300;
 }
 
 .semi-bold{
