@@ -1,0 +1,7 @@
+/* PHAT PHAM */
+	Contact: phatpham9 [at] gmail.com
+	From: Saigon Vietnam
+
+/* SITE */
+	Doctype: HTML5
+	IDE: Sublime Text
