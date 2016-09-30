@@ -17,6 +17,10 @@
     --fz8: 3rem;
 };
 
+body {
+    font-family: 'Open Sans';
+}
+
 a, a:link, a:hover, a:active, a:visited {
 	color: var(--main-color);
 	border-bottom: 0.1em solid var(--main-color);
