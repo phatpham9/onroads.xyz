@@ -6,7 +6,7 @@
 @import 'modules/line-height.css';
 
 :root {
-	--main-color: #111111;
+	--main-color: #000000;
     --inverse-color: #FFFFFF;
 
     --fz1: 1rem;
