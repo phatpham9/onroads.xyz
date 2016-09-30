@@ -11,10 +11,10 @@
     --fz2: 1.25rem;
     --fz3: 1.5rem;
     --fz4: 2rem;
-    --fz5: 2.5rem;
-    --fz6: 3rem;
-    --fz7: 3.5rem;
-    --fz8: 4rem;
+    --fz5: 2.25rem;
+    --fz6: 2.5rem;
+    --fz7: 2.75rem;
+    --fz8: 3rem;
 };
 
 a, a:link, a:hover, a:active, a:visited {
