@@ -24,3 +24,7 @@ body {
 a, a:link, a:hover, a:active, a:visited {
 	color: var(--main-color);
 }
+
+.border-bottom {
+    border-bottom: 0.1em solid var(--main-color);
+}
