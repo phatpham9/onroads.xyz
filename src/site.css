@@ -5,7 +5,8 @@
 @import 'modules/line-height.css';
 
 :root {
-	--main-color: black;
+	--main-color: #111111;
+    --inverse-color: #FFFFFF;
 
     --fz1: 1rem;
     --fz2: 1.25rem;
@@ -17,14 +18,20 @@
     --fz8: 3rem;
 };
 
+::selection{
+    background-color: var(--main-color);
+    color: var(--inverse-color);
+    text-shadow: none;
+}
+
 body {
     font-family: 'Open Sans';
 }
 
-a, a:link, a:hover, a:active, a:visited {
-	color: var(--main-color);
-}
-
 .border-bottom {
     border-bottom: 0.1em solid var(--main-color);
+}
+
+.semi-bold {
+    font-weight: 600;
 }
