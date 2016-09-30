@@ -2,6 +2,7 @@
 @import 'base.css';
 @import 'modules/font-size.css';
 @import 'modules/size.css';
+@import 'modules/line-height.css';
 
 :root {
 	--main-color: black;
