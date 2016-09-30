@@ -29,10 +29,10 @@ body {
     font-family: 'Open Sans';
 }
 
-.border-bottom {
-    border-bottom: 0.1em solid var(--main-color);
+.uppercase {
+    text-transform: uppercase;
 }
 
-.semi-bold {
-    font-weight: 600;
+.border-bottom {
+    border-bottom: 0.1em solid var(--main-color);
 }
