@@ -8,5 +8,6 @@
 
 OnRoads.xyz - Phat Pham's personal website.
 
-### Authors
-* [Phat Pham](http://onroads.xyz)
+### References
+
+* [Roadmap](https://trello.com/b/EBY2TxNy/onroads-xyz)
