@@ -11,7 +11,8 @@
     "sanitize.css": "4.1.0"
   },
   "devDependencies": {
-    "http-server": "0.9.0",
+    "ejs": "2.5.1",
+    "express": "4.14.0",
     "postcss": "^5.0.14",
     "postcss-cli": "^2.4.0",
     "postcss-cssnext": "2.7.0",
@@ -22,8 +23,8 @@
   },
   "scripts": {
     "build": "postcss -c config/postcss.js",
-    "prestart": "postcss -c config/postcss.js",
-    "start": "http-server -a localhost -p 9000"
+    "prestart": "npm run build",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
