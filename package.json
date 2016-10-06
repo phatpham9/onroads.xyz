@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "ejs": "2.5.1",
-    "express": "4.14.0"
+    "express": "4.14.0",
     "postcss": "^5.0.14",
     "postcss-cli": "^2.4.0",
     "postcss-cssnext": "2.7.0",
