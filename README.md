@@ -1,6 +1,6 @@
 ![OnRoads.xyz](https://raw.githubusercontent.com/phatpham9/onroads.xyz/master/logo-150.png)
 
-[![Build Status](https://travis-ci.org/phatpham9/onroads.xyz.svg?branch=master)](https://travis-ci.org/phatpham9/onroads.xyz)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/313e6855-7032-4805-afdd-1afd3d562681/deploy-status)](https://app.netlify.com/sites/onroads/deploys)
 [![Dependencies Status](https://david-dm.org/phatpham9/onroads.xyz.svg)](https://github.com/phatpham9/onroads.xyz)
 
-OnRoads.xyz - Phat Pham's personal website
+OnRoads.xyz - My personal website
