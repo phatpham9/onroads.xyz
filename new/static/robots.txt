@@ -1,0 +1,3 @@
+User-agent: *
+
+sitemap: https://onroads.xyz/sitemap.xml
