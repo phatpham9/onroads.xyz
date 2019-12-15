@@ -11,7 +11,6 @@ module.exports = {
     siteUrl: 'https://onroads.xyz',
     siteLanguage: 'en',
     siteImage: '/logo.png',
-    author: '@phatpham9',
     basePath: '/',
     blogPath: '/blog',
     tagsPath: '/tags',
@@ -40,6 +39,55 @@ module.exports = {
       options: {},
     },
     {
+      resolve: 'gatsby-plugin-feed',
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title: siteTitle
+                description: siteDescription
+                siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allPost } }) => {
+              return allPost.nodes.map(post => {
+                return {
+                  title: post.title,
+                  date: post.date,
+                  excerpt: post.excerpt,
+                  url: site.siteMetadata.siteUrl + post.slug,
+                  guid: site.siteMetadata.siteUrl + post.slug,
+                  custom_elements: [{
+                    'content:encoded': post.html
+                  }],
+                }
+              })
+            },
+            query: `
+              {
+                allPost(sort: { fields: date, order: DESC }) {
+                  nodes {
+                    title
+                    date(formatString: "MMMM D, YYYY")
+                    excerpt
+                    slug
+                    html
+                  }
+                }
+              }
+            `,
+            output: 'rss.xml',
+            title: 'Phat Pham | OnRoads.xyz',
+          },
+        ],
+      },
+    },
+    {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'Phat Pham | OnRoads.xyz',
@@ -49,48 +97,12 @@ module.exports = {
         background_color: '#fff',
         theme_color: '#000',
         display: 'standalone',
-        icons: [
-          {
-            src: '/android-chrome-192x192.png',
-            sizes: '192x192',
-            type: 'image/png',
-          },
-          {
-            src: '/android-chrome-512x512.png',
-            sizes: '512x512',
-            type: 'image/png',
-          },
-          {
-            src: '/apple-touch-icon-ipad-retina.png',
-            sizes: '152x152',
-            type: 'image/png',
-          },
-          {
-            src: '/apple-touch-icon-iphone-retina.png',
-            sizes: '120x120',
-            type: 'image/png',
-          },
-          {
-            src: '/apple-touch-icon-precomposed.png',
-            sizes: '180x180',
-            type: 'image/png',
-          },
-          {
-            src: '/apple-touch-icon.png',
-            sizes: '60x60',
-            type: 'image/png',
-          },
-          {
-            src: '/apple-touch-ipad.png',
-            sizes: '76x76',
-            type: 'image/png',
-          },
-        ],
+        icon: 'static/logo.png',
       },
     },
-    'gatsby-plugin-sitemap',
     'gatsby-plugin-offline',
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-netlify',
-    'gatsby-plugin-webpack-bundle-analyser-v2',
+    // 'gatsby-plugin-webpack-bundle-analyser-v2',
   ],
 }
