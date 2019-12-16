@@ -9,6 +9,7 @@ module.exports = {
     siteHeadline: 'Phat Pham | OnRoads.xyz',
     siteDescription: 'I\'m Phat Pham, a lifelong learner, tech enthusiast & open source lover based in Saigon Vietnam.',
     siteUrl: 'https://onroads.xyz',
+    author: '@phattpham9',
     siteLanguage: 'en',
     siteImage: '/logo.png',
     basePath: '/',
