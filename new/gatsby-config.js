@@ -31,6 +31,9 @@ module.exports = {
     }, {
       name: 'GitHub',
       url: 'https://github.com/phatpham9',
+    }, {
+      name: 'RSS',
+      url: 'https://onroads.xyz/rss.xml',
     }],
     showLineNumbers: true,
   },
