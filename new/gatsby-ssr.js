@@ -12,15 +12,17 @@ exports.onPreRenderHTML = function ({ getPreBodyComponents, replacePreBodyCompon
   function setMode(mode) {
     try {
       localStorage.setItem('theme-ui-color-mode', mode)
-    } catch (err) {}
+    } catch (e) {}
   }
-  var darkQuery = window.matchMedia('(prefers-color-scheme: dark)')
-  darkQuery.addListener(function(e) {
-    setMode(e.matches ? 'dark' : 'light')
-  })
-  setMode(darkQuery.matches ? 'dark' : 'light')
-})()
-        `,
+  try {
+    if (localStorage.getItem('theme-ui-color-mode')) return
+    var darkQuery = window.matchMedia('(prefers-color-scheme: dark)')
+    darkQuery.addListener(function(e) {
+      setMode(e.matches ? 'dark' : 'light')
+    })
+    setMode(darkQuery.matches ? 'dark' : 'light')
+  } catch (e) {}
+})()`,
       },
     }),
     ...preBodyComponents,
