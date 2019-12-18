@@ -70,14 +70,42 @@ module.exports = {
         name: 'Phat Pham | OnRoads.xyz',
         short_name: 'OnRoads.xyz',
         description: 'I\'m Phat Pham, a lifelong learner, tech enthusiast & open source lover based in Saigon Vietnam.',
-        start_url: '/',
-        background_color: '#fff',
-        theme_color: '#000',
-        display: 'standalone',
+        start_url: '/?utm_source=pwa',
+        background_color: '#191f2c',
+        theme_color: '#191f2c',
+        display: 'fullscreen',
         icon: 'static/logo.png',
       },
     },
-    'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-offline',
+      options: {
+        workboxConfig: {
+          runtimeCaching: [{
+              // Use cacheFirst since these don't need to be revalidated (same RegExp
+              // and same reason as above)
+              urlPattern: /(\.js$|\.css$|static\/)/,
+              handler: `cacheFirst`,
+            },
+            {
+              // page-data.json files are not content hashed
+              urlPattern: /^https?:.*\page-data\/.*\/page-data\.json/,
+              handler: `networkFirst`,
+            },
+            {
+              // Add runtime caching of various other page resources
+              urlPattern: /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
+              handler: `staleWhileRevalidate`,
+            },
+            {
+              // Google Fonts CSS (doesn't end in .css so we need to specify it)
+              urlPattern: /^https?:\/\/fonts\.googleapis\.com\/css/,
+              handler: `staleWhileRevalidate`,
+            },
+          ],
+        },
+      },
+    },
     'gatsby-plugin-sitemap',
     'gatsby-plugin-netlify',
   ],
