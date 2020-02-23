@@ -7,7 +7,7 @@ module.exports = {
     siteTitle: 'Phat Pham',
     siteTitleAlt: 'Phat Pham | OnRoads.xyz',
     siteHeadline: 'Phat Pham | OnRoads.xyz',
-    siteDescription: 'I\'m Phat Pham, a lifelong learner, tech enthusiast & open source lover based in Saigon Vietnam.',
+    siteDescription: 'I\'m Phat Pham, a lifelong learner, tech enthusiast & open source lover based in Ho Chi Minh Vietnam.',
     siteUrl: 'https://onroads.xyz',
     author: '@phattpham9',
     siteLanguage: 'en',
@@ -26,8 +26,8 @@ module.exports = {
       },
     ],
     externalLinks: [{
-      name: 'Email',
-      url: 'mailto:phatpham9@gmail.com',
+      name: 'Contact',
+      url: 'mailto:phat@onroads.xyz',
     }, {
       name: 'GitHub',
       url: 'https://github.com/phatpham9',
@@ -69,7 +69,7 @@ module.exports = {
       options: {
         name: 'Phat Pham | OnRoads.xyz',
         short_name: 'OnRoads.xyz',
-        description: 'I\'m Phat Pham, a lifelong learner, tech enthusiast & open source lover based in Saigon Vietnam.',
+        description: 'I\'m Phat Pham, a lifelong learner, tech enthusiast & open source lover based in Ho Chi Minh Vietnam.',
         start_url: '/?utm_source=pwa',
         background_color: '#191f2c',
         theme_color: '#191f2c',

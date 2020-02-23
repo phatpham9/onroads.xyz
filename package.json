@@ -2,7 +2,7 @@
   "name": "onroads.xyz",
   "description": "My Personal Website",
   "version": "0.0.0",
-  "author": "Phat Pham <phatpham9@gmail.com>",
+  "author": "Phat Pham <https://onroads.xyz>",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
