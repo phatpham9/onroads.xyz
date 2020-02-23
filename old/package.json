@@ -2,7 +2,7 @@
   "name": "onroads.xyz",
   "version": "0.0.1",
   "description": "onroads.xyz",
-  "author": "Phat Pham",
+  "author": "Phat Pham (https://onroads.xyz)",
   "license": "MIT",
   "dependencies": {
     "basscss": "^8.0.0",
