@@ -1,9 +1,11 @@
 {
   "name": "onroads.xyz",
-  "description": "My Personal Website",
   "version": "0.0.0",
+  "description": "My Personal Website",
+  "repository": "phatpham9/onroads.xyz",
   "author": "Phat Pham (https://onroads.xyz)",
   "license": "MIT",
+  "bugs": "https://github.com/phatpham9/onroads.xyz/issues",
   "scripts": {
     "clean": "gatsby clean",
     "purge": "rm -rf node_modules",
