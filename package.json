@@ -5,13 +5,18 @@
   "author": "Phat Pham (https://onroads.xyz)",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "purge": "rm -rf node_modules",
     "develop": "gatsby develop --host 0.0.0.0",
+    "build": "gatsby build",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
     "start": "gatsby develop --host 0.0.0.0",
     "serve": "gatsby serve --host 0.0.0.0",
-    "clean": "gatsby clean"
+    "release": "standard-version",
+    "release:major": "yarn release --release-as major",
+    "release:minor": "yarn release --release-as minor",
+    "release:patch": "yarn release --release-as patch"
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-minimal-blog": "^1.1.4",
@@ -25,6 +30,7 @@
     "react-dom": "^16.9.0"
   },
   "devDependencies": {
-    "cross-env": "^5.2.0"
+    "cross-env": "^5.2.0",
+    "standard-version": "^7.1.0"
   }
 }
