@@ -1,6 +1,6 @@
 # onroads.xyz
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/313e6855-7032-4805-afdd-1afd3d562681/deploy-status)](https://app.netlify.com/sites/onroads/deploys)
-[![Dependencies Status](https://david-dm.org/phatpham9/onroads.xyz.svg)](https://github.com/phatpham9/onroads.xyz)
+[![Netlify Status](https://img.shields.io/netlify/313e6855-7032-4805-afdd-1afd3d562681?color=brightgreen&style=flat-square)](https://app.netlify.com/sites/onroads/deploys)
+[![Dependencies Status](https://img.shields.io/david/phatpham9/onroads.xyz?color=brightgreen&style=flat-square)](https://github.com/phatpham9/onroads.xyz)
 
-My personal website - https://onroads.xyz
+My personal website
