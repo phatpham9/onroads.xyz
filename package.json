@@ -16,7 +16,7 @@
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
     "start": "gatsby develop --host 0.0.0.0",
     "serve": "gatsby serve --host 0.0.0.0",
-    "release": "standard-version",
+    "release": "standard-version --no-verify",
     "release:major": "yarn release --release-as major",
     "release:minor": "yarn release --release-as minor",
     "release:patch": "yarn release --release-as patch"
@@ -34,6 +34,7 @@
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
+    "husky": "^4.2.3",
     "standard-version": "^7.1.0"
   }
 }
