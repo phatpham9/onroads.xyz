@@ -22,7 +22,7 @@ module.exports = {
       },
       {
         title: 'Resume',
-        slug: '/Resume',
+        slug: '/resume',
       },
     ],
     externalLinks: [
