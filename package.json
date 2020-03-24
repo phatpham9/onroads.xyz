@@ -7,6 +7,9 @@
   "license": "MIT",
   "author": "Phat Pham (https://onroads.xyz)",
   "repository": "https://github.com/phatpham9/onroads.xyz.git",
+  "engines": {
+    "node": ">=10"
+  },
   "scripts": {
     "clean": "gatsby clean",
     "purge": "rm -rf node_modules",
