@@ -21,20 +21,20 @@ module.exports = {
         slug: '/blog',
       },
       {
-        title: 'About',
-        slug: '/about',
+        title: 'Resume',
+        slug: '/Resume',
       },
     ],
-    externalLinks: [{
-      name: 'Contact',
-      url: 'mailto:phat@onroads.xyz',
-    }, {
-      name: 'GitHub',
-      url: 'https://github.com/phatpham9',
-    }, {
-      name: 'RSS',
-      url: 'https://onroads.xyz/rss.xml',
-    }],
+    externalLinks: [
+      {
+        name: 'GitHub',
+        url: 'https://github.com/phatpham9',
+      },
+      {
+        name: 'Contact',
+        url: 'mailto:phat@onroads.xyz',
+      },
+    ],
     showLineNumbers: true,
   },
   plugins: [
