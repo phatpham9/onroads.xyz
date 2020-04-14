@@ -71,6 +71,7 @@ module.exports = {
         short_name: 'OnRoads.xyz',
         description: 'I\'m Phat Pham, a lifelong learner, tech enthusiast & open source lover based in Ho Chi Minh Vietnam.',
         start_url: '/?utm_source=pwa',
+        scope: '/',
         background_color: '#191f2c',
         theme_color: '#191f2c',
         display: 'standalone',
