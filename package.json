@@ -38,6 +38,6 @@
   "devDependencies": {
     "cross-env": "^5.2.0",
     "husky": "^4.2.3",
-    "standard-version": "^7.1.0"
+    "standard-version": "^8.0.1"
   }
 }
