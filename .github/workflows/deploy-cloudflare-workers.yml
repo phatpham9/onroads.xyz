@@ -1,0 +1,19 @@
+name: deploy-cloudflare-workers
+
+on: [push]
+
+jobs:
+  deploy-cloudflare-workers:
+    runs-on: ubuntu-latest
+    container: boringcodes/dev-runner:node-12-alpine
+    name: With Node.js 12
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: yarn
+      - name: Build source
+        run: yarn build
+      - name: Deploy to CloudFlare Workers
+        uses: cloudflare/wrangler-action@1.3.0
+        with:
+          apiToken: ${{secrets.CF_API_TOKEN}}
