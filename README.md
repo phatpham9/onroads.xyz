@@ -26,7 +26,7 @@
 ## Overview
 
 - 🔧 Build with [GatsbyJS](https://www.gatsbyjs.com)
-- 💄 Theme by [@lekoarts/gatsby-theme-minimal-blog](https://www.gatsbyjs.com/plugins/@lekoarts/gatsby-theme-minimal-blog)
+- 💅 Theme by [@lekoarts/gatsby-theme-minimal-blog](https://www.gatsbyjs.com/plugins/@lekoarts/gatsby-theme-minimal-blog)
 - ✈️ Host on [CloudFlare Workers](https://workers.cloudflare.com)
 
 ## Installation
