@@ -11,14 +11,11 @@
     "node": ">=12"
   },
   "scripts": {
-    "clean": "gatsby clean",
-    "purge": "rm -rf node_modules",
-    "develop": "gatsby develop --host 0.0.0.0",
+    "dev": "gatsby develop",
     "build": "gatsby build",
-    "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
-    "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
-    "start": "gatsby develop --host 0.0.0.0",
-    "serve": "gatsby serve --host 0.0.0.0",
+    "start": "gatsby serve",
+    "purge": "rimraf node_modules",
+    "clean": "gatsby clean",
     "release": "standard-version --no-verify",
     "release:major": "yarn release --release-as major",
     "release:minor": "yarn release --release-as minor",
@@ -36,8 +33,8 @@
     "react-dom": "^16.9.0"
   },
   "devDependencies": {
-    "cross-env": "^5.2.0",
     "husky": "^4.2.3",
+    "rimraf": "^3.0.2",
     "standard-version": "^8.0.1"
   }
 }
