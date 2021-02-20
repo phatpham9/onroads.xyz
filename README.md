@@ -22,3 +22,53 @@
 
   <img src="banner.png">
 </div>
+
+## Overview
+
+- 🔧 Build with [GatsbyJS](https://www.gatsbyjs.com)
+- 💄 Theme by [@lekoarts/gatsby-theme-minimal-blog](https://www.gatsbyjs.com/plugins/@lekoarts/gatsby-theme-minimal-blog)
+- ✈️ Host on [CloudFlare Workers](https://workers.cloudflare.com)
+
+## Installation
+
+Use the package manager to install dependencies
+
+```sh
+$ yarn
+```
+
+## Development
+
+Run the following command to start developing
+
+```sh
+$ yarn dev
+```
+
+## Production
+
+Before running the app on production mode, we need to build the source by the following command
+
+```sh
+$ yarn build
+```
+
+Then start the app
+
+```sh
+$ yarn start
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## Authors
+
+[Phat Pham](https://github.com/phatpham9)
+
+## License
+
+[MIT](https://github.com/phatpham9/onroads.xyz/blob/master/LICENSE)

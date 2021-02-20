@@ -11,11 +11,11 @@
     "node": ">=12"
   },
   "scripts": {
+    "purge": "rimraf node_modules",
+    "clean": "gatsby clean",
     "dev": "gatsby develop",
     "build": "gatsby build",
     "start": "gatsby serve",
-    "purge": "rimraf node_modules",
-    "clean": "gatsby clean",
     "release": "standard-version --no-verify",
     "release:major": "yarn release --release-as major",
     "release:minor": "yarn release --release-as minor",
