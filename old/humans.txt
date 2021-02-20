@@ -1,7 +1,0 @@
-/* PHAT PHAM */
-	Contact: phat [at] onroads.xyz
-	From: Ho Chi Minh Vietnam
-
-/* SITE */
-	Doctype: HTML5
-	IDE: Sublime Text
