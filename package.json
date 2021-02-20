@@ -8,7 +8,7 @@
   "author": "Phat Pham (https://onroads.xyz)",
   "repository": "https://github.com/phatpham9/onroads.xyz.git",
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   },
   "scripts": {
     "clean": "gatsby clean",
