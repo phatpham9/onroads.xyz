@@ -9,8 +9,8 @@
     <a href="https://david-dm.org/phatpham9/onroads.xyz" aria-label="Dependencies Status">
       <img src="https://img.shields.io/david/phatpham9/onroads.xyz?color=brightgreen&style=flat-square">
     </a>
-    <a href="https://github.com/phatpham9/onroads.xyz/actions" aria-label="CloudFlare Workers Sites Build & Deploy Status">
-      <img src="https://img.shields.io/github/workflow/status/phatpham9/onroads.xyz/deploy-cloudflare-workers-sites?color=brightgreen&label=workers%20sites&style=flat-square">
+    <a href="https://github.com/phatpham9/onroads.xyz/actions" aria-label="CloudFlare Workers Status">
+      <img src="https://img.shields.io/github/workflow/status/phatpham9/onroads.xyz/deploy-cloudflare-workers-sites?color=brightgreen&label=cloudflare%20workers&style=flat-square">
     </a>
     <!-- <a href="https://app.netlify.com/sites/onroads/deploys" aria-label="Netlify Status">
       <img src="https://img.shields.io/netlify/313e6855-7032-4805-afdd-1afd3d562681?color=brightgreen&style=flat-square">
@@ -45,7 +45,7 @@ Run the following command to start developing
 $ yarn dev
 ```
 
-## Production
+## Deployment
 
 Before running the app on production mode, we need to build the source by the following command
 
