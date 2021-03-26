@@ -1,0 +1,36 @@
+---
+date: 2021-03-26
+title: Dotfiles
+description: Setting up your Dotfiles or Dev Workspace in minutes not hours
+banner: ./domenico-loia-hGV2TfOh0ns-unsplash.jpg
+tags:
+  - Automation
+---
+
+![Photo by Domenico Loia from Unsplash](./domenico-loia-hGV2TfOh0ns-unsplash.jpg)
+
+I bet that every developers in around the world has at least once struggling with installing applications and configuring them when they had to reinstall the OS on the current machine or the new one. I've had that problem repeated many times over 10 years as a developer.
+
+#### Everything around you should be stateless!
+
+I've learnt the `stateless` term when I was learning React.js. I heard it again when I was learning Microservices architecture. And then I thought that why not bring that mindset to our OS running on our devices. Storing the configuration (not the backup data) somewhere in the trusted cloud is better than a physical storage (USB, external hard disk, etc...). GitHub is the best place for it in my opinion.
+
+#### Automation saves you time and time costs!
+
+Think of an activity that takes you hours to make it done but only 15 minutes if you make it automated. That's a lot! Not only saving your time, but also lesser mistake you will make and let your mind worry-free.
+
+#### But first you should have the manual approach!
+
+I had done it manually for years. I had a list that contains everything one by one with the download links, installation and configuration guides (you can check it at [phatpham9/dev-env](https://github.com/phatpham9/dev-env)). It helped me a lot but I wanted much better.
+
+One has that problem, for sure another one has the same. Try to find the problem you have then you will find the solution from someone else. And here is my reference that helps me a lot to set up mine [dotfiles.github.io](https://dotfiles.github.io).
+
+#### Then automate them as much as you can!
+
+Here is my dotfiles repo on GitHub [phatpham9/dotfiles](https://github.com/phatpham9/dotfiles). Which contains 3 things:
+
+1. Install GUI/CLI applications. I used `homebrew` for managing most of them and the rest is from `npm`.
+2. Configure those applications. Creating symlinks instead of putting the original dotfiles to your `$HOME` is the best approach.
+3. Configure OS preferences (MacOS is my choice). Keeping the appearance & everything else the same as what you think it's the most comfortable makes you more productive.
+
+That's it!
