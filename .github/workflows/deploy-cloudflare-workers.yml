@@ -5,11 +5,17 @@ on: [push]
 jobs:
   deploy-cloudflare-workers:
     runs-on: ubuntu-latest
-    container: boringcodes/dev-runner:node-12-alpine
-    name: With Node.js 12
+    # tmp disabled
+    # container: boringcodes/dev-runner:node-12-alpine
+    # name: With Node.js 12
     steps:
       - name: Checkout source
         uses: actions/checkout@v2
+      # replace for using container
+      - name: Setup Node.js 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
       - name: Install dependencies
         run: yarn
       - name: Build source
