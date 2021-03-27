@@ -12,9 +12,9 @@
     <a href="https://github.com/phatpham9/onroads.xyz/actions" aria-label="CloudFlare Workers Status">
       <img src="https://img.shields.io/github/workflow/status/phatpham9/onroads.xyz/deploy-cloudflare-workers-sites?color=brightgreen&label=cloudflare%20workers&style=flat-square">
     </a>
-    <!-- <a href="https://app.netlify.com/sites/onroads/deploys" aria-label="Netlify Status">
+    <a href="https://app.netlify.com/sites/onroads/deploys" aria-label="Netlify Status">
       <img src="https://img.shields.io/netlify/313e6855-7032-4805-afdd-1afd3d562681?color=brightgreen&style=flat-square">
-    </a> -->
+    </a>
     <a href="https://github.com/phatpham9/onroads.xyz/blob/master/LICENSE" aria-label="MIT License">
       <img src="https://img.shields.io/github/license/phatpham9/onroads.xyz?color=brightgreen&style=flat-square">
     </a>
@@ -27,7 +27,8 @@
 
 - 🔧 Build with [GatsbyJS](https://www.gatsbyjs.com)
 - 💅 Theme by [@lekoarts/gatsby-theme-minimal-blog](https://www.gatsbyjs.com/plugins/@lekoarts/gatsby-theme-minimal-blog)
-- ✈️ Host on [CloudFlare Workers](https://workers.cloudflare.com)
+- 🏠 Host on [GitHub](https://github.com/phatpham9/onroads.xyz)
+- ✈️ Deliver by [CloudFlare Workers](https://workers.cloudflare.com)
 
 ## Installation
 
