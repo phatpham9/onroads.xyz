@@ -23,7 +23,7 @@ const Footer = () => {
         &copy;{new Date().getFullYear()} by {siteTitle}
       </div>
       <div>
-        Code
+        Hosted
         {` `}
         on
         {` `}
