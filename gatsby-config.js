@@ -1,46 +1,44 @@
 require('dotenv').config({
   path: '.env',
-})
+});
 
 module.exports = {
   siteMetadata: {
     siteTitle: 'Phat Pham',
-    siteTitleAlt: 'Phat Pham | OnRoads.xyz',
-    siteHeadline: 'Phat Pham | OnRoads.xyz',
-    siteDescription: 'I\'m Phat Pham, a lifelong learner, tech enthusiast & open source lover based in Ho Chi Minh Vietnam.',
+    siteTitleAlt: "Hi there 👋, I'm Phat Pham!",
+    siteHeadline: "Hi there 👋, I'm Phat Pham!",
+    siteDescription:
+      'A lifelong learner, tech enthusiast & open source lover based in Ho Chi Minh Vietnam',
     siteUrl: 'https://onroads.xyz',
-    author: '@phattpham9',
     siteLanguage: 'en',
     siteImage: '/logo.png',
-    basePath: '/',
-    blogPath: '/blog',
-    tagsPath: '/tags',
-    navigation: [
-      {
-        title: 'Blog',
-        slug: '/blog',
-      },
-      {
-        title: 'Resume',
-        slug: '/resume',
-      },
-    ],
-    externalLinks: [
-      {
-        name: 'GitHub',
-        url: 'https://github.com/phatpham9',
-      },
-      {
-        name: 'Contact',
-        url: 'mailto:phat@onroads.xyz',
-      },
-    ],
-    showLineNumbers: true,
   },
   plugins: [
     {
       resolve: '@lekoarts/gatsby-theme-minimal-blog',
-      options: {},
+      options: {
+        formatString: 'YYYY-MM-DD',
+        navigation: [
+          {
+            title: 'Blog',
+            slug: '/blog',
+          },
+          {
+            title: 'About',
+            slug: '/about',
+          },
+        ],
+        externalLinks: [
+          {
+            name: 'GitHub',
+            url: 'https://github.com/phatpham9',
+          },
+          {
+            name: 'Contact',
+            url: 'mailto:phat@onroads.xyz',
+          },
+        ],
+      },
     },
     {
       resolve: 'gatsby-plugin-google-tagmanager',
@@ -69,7 +67,8 @@ module.exports = {
       options: {
         name: 'Phat Pham | OnRoads.xyz',
         short_name: 'OnRoads.xyz',
-        description: 'I\'m Phat Pham, a lifelong learner, tech enthusiast & open source lover based in Ho Chi Minh Vietnam.',
+        description:
+          'A lifelong learner, tech enthusiast & open source lover based in Ho Chi Minh Vietnam',
         start_url: '/?utm_source=pwa',
         scope: '/',
         background_color: '#191f2c',
@@ -82,7 +81,8 @@ module.exports = {
       resolve: 'gatsby-plugin-offline',
       options: {
         workboxConfig: {
-          runtimeCaching: [{
+          runtimeCaching: [
+            {
               // Use cacheFirst since these don't need to be revalidated (same RegExp
               // and same reason as above)
               urlPattern: /(\.js$|\.css$|static\/)/,
@@ -110,4 +110,4 @@ module.exports = {
     'gatsby-plugin-sitemap',
     'gatsby-plugin-netlify',
   ],
-}
+};
