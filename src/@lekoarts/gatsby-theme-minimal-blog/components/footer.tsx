@@ -16,7 +16,7 @@ const Footer = () => {
         variant: `dividers.top`,
       }}
     >
-      <div>Built with ❤️ & ☕</div>
+      <div>Built with ☕</div>
       <div>
         Hosted
         {` `}
