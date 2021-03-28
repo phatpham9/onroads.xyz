@@ -19,9 +19,7 @@ const Footer = () => {
         variant: `dividers.top`,
       }}
     >
-      <div>
-        &copy;{new Date().getFullYear()} by {siteTitle}
-      </div>
+      <div>Built with ❤️ by {siteTitle}</div>
       <div>
         Hosted
         {` `}
