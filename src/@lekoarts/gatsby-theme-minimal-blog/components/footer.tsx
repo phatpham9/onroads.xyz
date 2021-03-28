@@ -3,8 +3,6 @@ import { jsx, Link } from 'theme-ui';
 import useSiteMetadata from '@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-site-metadata';
 
 const Footer = () => {
-  const { siteTitle } = useSiteMetadata();
-
   return (
     <footer
       sx={{
@@ -19,7 +17,7 @@ const Footer = () => {
         variant: `dividers.top`,
       }}
     >
-      <div>Built with ❤️ by {siteTitle}</div>
+      <div>Built with ❤️ & ☕</div>
       <div>
         Hosted
         {` `}
