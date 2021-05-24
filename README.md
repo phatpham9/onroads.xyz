@@ -22,9 +22,9 @@
 
 ## Overview
 
-- 🔧 Built with [GatsbyJS](https://www.gatsbyjs.com)
+- 🔧 Built on [GatsbyJS](https://www.gatsbyjs.com)
 - 💅 Theme by [@lekoarts/gatsby-theme-minimal-blog](https://www.gatsbyjs.com/plugins/@lekoarts/gatsby-theme-minimal-blog)
-- 🏠 Hosted on [GitHub Repository](https://github.com/phatpham9/onroads.xyz)
+- 🏠 Hosted on [GitHub](https://github.com/phatpham9/onroads.xyz)
 - ✈️ Delivered by [CloudFlare Pages](https://pages.cloudflare.com)
 
 ## Installation
