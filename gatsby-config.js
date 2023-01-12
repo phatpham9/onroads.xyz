@@ -5,10 +5,10 @@ require('dotenv').config({
 module.exports = {
   siteMetadata: {
     siteTitle: 'Phat Pham',
-    siteTitleAlt: "Hi there 👋, I'm Phat Pham!",
-    siteHeadline: "Hi there 👋, I'm Phat Pham!",
+    siteTitleAlt: "Hi there, I'm Phat Pham 👋",
+    siteHeadline: "Hi there, I'm Phat Pham 👋",
     siteDescription:
-      'A lifelong learner, tech enthusiast & open source lover based in Ho Chi Minh Vietnam',
+      'A lifelong learner, tech enthusiast & open source lover from Vietnam',
     siteUrl: 'https://onroads.xyz',
     siteLanguage: 'en',
     siteImage: '/logo.png',
@@ -68,7 +68,7 @@ module.exports = {
         name: 'Phat Pham | OnRoads.xyz',
         short_name: 'OnRoads.xyz',
         description:
-          'A lifelong learner, tech enthusiast & open source lover based in Ho Chi Minh Vietnam',
+          'A lifelong learner, tech enthusiast & open source lover from Vietnam',
         start_url: '/?utm_source=pwa',
         scope: '/',
         background_color: '#191f2c',
@@ -95,7 +95,8 @@ module.exports = {
             },
             {
               // Add runtime caching of various other page resources
-              urlPattern: /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
+              urlPattern:
+                /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
               handler: 'StaleWhileRevalidate',
             },
             {
