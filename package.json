@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-minimal-blog": "^2.7.6",
-    "gatsby": "^2.13.3",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-google-tagmanager": "^2.1.20",
     "gatsby-plugin-manifest": "^2.2.3",
     "gatsby-plugin-offline": "^3.0.29",
