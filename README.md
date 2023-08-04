@@ -18,6 +18,7 @@
   </p>
 
   <img src="banner.png">
+  <img src="new_banner.png">
 </div>
 
 ## Overview
