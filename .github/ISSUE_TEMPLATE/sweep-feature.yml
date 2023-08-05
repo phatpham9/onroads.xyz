@@ -1,11 +1,16 @@
-name: Feature Request
-title: 'Sweep: '
-description: Write something like "Write an api endpoint that does "..." in the "..." file"
-labels: sweep
+name: Feature Request with Sweep API
+description: Ask Sweep AI to implement a new feature
+labels: ["sweep", "feat"]
 body:
   - type: textarea
     id: description
     attributes:
       label: Details
-      description: More details for Sweep
+      description: More details about the feature
       placeholder: The new endpoint should use the ... class from ... file because it contains ... logic
+  - type: textarea
+    id: files-to-change
+    attributes:
+      label: Files to change
+      description: Optional but can improve Sweep
+      placeholder:  content/about.index.mdx

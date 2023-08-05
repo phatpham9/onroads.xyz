@@ -1,11 +1,16 @@
-name: Bugfix
-title: 'Sweep: '
-description: Write something like "We notice ... behavior when ... happens instead of ...""
-labels: sweep
+name: Bugfix with Sweep AI
+description: Ask Sweep AI to fix a bug
+labels: ["sweep", "bug"]
 body:
   - type: textarea
     id: description
     attributes:
       label: Details
       description: More details about the bug
-      placeholder: The bug might be in ... file
+      placeholder:  Write something like "We notice ... behavior when ... happens instead of ..."
+  - type: textarea
+    id: files-to-change
+    attributes:
+      label: Files to change
+      description: Optional but can improve Sweep
+      placeholder:  content/about.index.mdx

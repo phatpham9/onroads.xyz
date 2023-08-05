@@ -1,11 +1,16 @@
-name: Refactor
-title: 'Sweep: '
-description: Write something like "Modify the ... api endpoint to use ... version and ... framework"
-labels: sweep
+name: Refactor with Sweep AI
+description: Ask Sweep AI to refactor code
+labels: ["sweep", "refactor"]
 body:
   - type: textarea
     id: description
     attributes:
       label: Details
-      description: More details for Sweep
+      description: More details about the refactor
       placeholder: We are migrating this function to ... version because ...
+  - type: textarea
+    id: files-to-change
+    attributes:
+      label: Files to change
+      description: Optional but can improve Sweep
+      placeholder:  content/about.index.mdx
