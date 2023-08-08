@@ -9,6 +9,10 @@ exports.onPreRenderHTML = function ({
     ...headComponents,
     [
       {
+        name: 'theme-color',
+        content: '#191f2c',
+      },
+      {
         name: 'apple-mobile-web-app-status-bar-style',
         content: 'black-translucent',
       },

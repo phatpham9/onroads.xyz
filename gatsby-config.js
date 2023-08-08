@@ -71,12 +71,6 @@ module.exports = {
           'A lifelong learner, tech enthusiast & open source lover from Vietnam',
         start_url: '/?utm_source=pwa',
         scope: '/',
-        scope_url: 'https://onroads.xyz/',
-        intent_filters: {
-          scope_url_scheme: 'https',
-          scope_url_host: 'onroads.xyz',
-          scope_url_path: '/',
-        },
         background_color: '#191f2c',
         theme_color: '#191f2c',
         display: 'standalone',
